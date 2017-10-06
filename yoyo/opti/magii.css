@@ -1,0 +1,305 @@
+/*@charset "utf-8";
+body {
+	margin:0;
+	padding:0;
+	background-image:url("");
+	background-repeat:no-repeat;
+	
+    background-size:100% 100%;
+	background-attachment:fixed;
+	
+	
+}
+
+.me {
+	position:relative;
+	margin:0 auto;
+	padding:15px;
+	width:30%;
+}
+
+	li {
+		padding-top:10px;
+		float:right;
+		display:inline-table;
+		
+	}
+	li:first-child {
+		border-right:none;
+	}
+.bar {
+	height:80px;
+	opacity:0.5;
+ }
+ .logo {
+	 margin-left:35px;
+	padding:0;
+	display:inline-block;
+	width:70px;
+	height:70px;
+	vertical-align:top;
+ }
+ ul {
+    display:inline-block;
+	width:100%;
+	position:fixed;
+	overflow:hidden;
+	list-style-type:none;
+    background-color:#474739;
+	padding:0;
+	margin:0;
+ }
+ li a {
+	line-height:40px;
+    display:inline-block;
+	text-decoration:none;
+	padding:6px 16px;
+	color:white;
+	font-size:18px;
+	display:inline-block;
+    }
+li a:hover {
+     border-top:3px white solid;
+	 border-radius:50%;
+}
+li a:active {
+	color:blue;
+}
+a:visited {
+	/*color:red;*/
+    border-top:3px #277dab solid;
+	}
+	
+#about {
+	padding-top:0;
+    margin-top:-20px;
+	position:relative;
+	display:block;	
+	animation: 
+	  
+}
+	#about:hover {
+		 -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+		cursor:not-allowed;
+		
+		
+	}
+hr {
+	margin-top:-15px;
+    margin-left:auto;
+	margin-right:auto;
+	height:0; 
+  border:0; 
+  border-top:1px solid #000; 
+}
+#about h1 {
+	text-decoration:underline;
+	margin-top:120px;
+			text-align:center;
+	 	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:48px;
+	color:#fff;
+}
+	p {
+		padding-top:40px;
+		padding-bottom:40px;
+		text-align:center;
+		color:#cccccc;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:24px;
+		font-weight:80px;
+	}
+
+	header {
+	
+		 
+		margin:0;
+		padding:0;
+		
+	}
+	
+	h2 {
+		text-decoration:underline;
+		text-align:center;
+		padding-top:50px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:36px;
+		color:#fff;
+	}
+     .anim {
+		 position:relative;
+	 }
+	.one {
+		
+		color:black;
+		text-align:center;
+	  	height:1px;
+      	width:60%;
+		background-color:white;
+		margin:0 auto;
+		display:block;
+        margin-top:100px;  	
+	}
+
+	
+	.two {
+		background-attachment:fixed;
+		  height:1px;
+      	width:60%;
+		background-color:white;
+		margin:0 auto;
+		display:block;
+        margin-top:100px;
+	    -ms-transform: rotate(8deg);
+		-webkit-transform:rotate(8deg);
+		transform:rotate(14.2deg);
+	}
+	.three {
+		background-attachment:fixed;
+		  height:1px;
+      	width:66%;
+		background-color:white;
+		margin:0 auto;
+		display:block;
+        margin-top:100px;
+		transform:rotate(26.4deg);
+	}
+	
+	.four {
+		background-attachment:fixed;
+		  height:1px;
+      	width:74%;
+		background-color:white;
+		margin:0 auto;
+		display:block;
+        margin-top:105px;
+		transform:rotate(37deg);
+		
+		
+	}
+	
+	.five {
+		  height:1px;
+      	width:666px;
+		background-color:white;
+		margin:0 auto;
+		display:block;
+        margin-top:21px;
+		transform:rotate(90deg);
+		margin-left:739px;
+	   bottom:26px;
+	   position:relative;
+	}
+	
+	#dot1 { 
+	    text-align:center;
+		color:white;
+		position:absolute;
+		width:70px;
+		height:70px;
+		border-radius:50%;
+		background:#ab2927;
+		cursor:pointer;
+	    bottom:305px;
+		left:260px;
+		background-attachment:fixed;
+	
+	}
+
+	#dot2 {
+		text-align:center;
+		color:white;
+		position:absolute;
+		width:70px;
+		height:70px;
+		border-radius:50%;
+		background:#034717;
+		cursor:pointer;
+	    bottom:310px;
+		left:1050px;
+		background-attachment:fixed;
+	
+	}
+	#dot3 {
+		text-align:center;
+		color:white;
+		position:absolute;
+		width:70px;
+		height:70px;
+		border-radius:50%;
+		background:#8abf67;
+		cursor:pointer;
+	    bottom:110px;
+		left:1050px;
+		background-attachment:fixed;
+	
+	}
+	#dot4 {
+		text-align:center;
+		color:white;
+		position:absolute;
+		width:80px;
+		height:80px;
+		border-radius:50%;
+		background:#BF7067;
+		cursor:pointer;
+	    bottom:-95px;
+		left:1050px;
+		background-attachment:fixed;
+	
+	}
+	#dot5 {
+		
+		text-align:center;
+		color:white;
+		position:absolute;
+		width:70px;
+		height:70px;
+		border-radius:50%;
+		background:#AB05C6;
+		cursor:pointer;
+	    bottom:-310px;
+		left:1050px;
+		background-attachment:fixed;
+	
+	}
+	
+		#anim {
+			
+			 -webkit-animation-duration: 20s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+		cursor:normal;
+		}
+		
+		.pdot {
+			color:#cff;
+			font-size:17px;
+			position:relative;
+			bottom:25px;
+		} 
+		.pdot3 {
+			color:#cff;
+			font-size:17px;
+			position:relative;
+			bottom:40px;
+		} 
+		*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

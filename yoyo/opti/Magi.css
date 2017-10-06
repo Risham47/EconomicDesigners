@@ -1,0 +1,252 @@
+@charset "utf-8";
+/*loading */
+
+
+body {
+	margin:0;
+	padding:0;
+	background-image:url("body.png");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+    background-size:100% 100%;	
+   
+}
+ h1 {
+	font-style:normal;
+	font-size:48px;
+    text-align:center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#cff;
+	overflow:hidden;
+	
+	 white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(23),
+    blink-caret .5s step-end ;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 45% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+span {
+	animation:blink 1s infinite;
+	font-size:70px;
+	color:#a7b5c3;
+}
+@keyframes blink {
+	to{opacity:.0;}
+}
+#dp {
+	
+	top:150px;
+	position:relative;
+}
+p {
+	
+    text-align:center;
+	line-height:50px;
+	
+	
+}
+	li {
+		padding-top:10px;
+		float:right;
+		display:inline-table;
+		
+	}
+	li:first-child {
+		border-right:none;
+	}
+	
+.bar {
+	height:80px;
+	opacity:0.5;
+ }
+ .logo {
+	 margin-left:35px;
+	padding:;
+	display:inline-block;
+	width:70px;
+	height:70px;
+	vertical-align:top;
+ }
+ ul {
+    display:inline-block;
+	width:100%;
+	position:fixed;
+	overflow:hidden;
+	list-style-type:none;
+    background-color:black;
+	padding:8px;
+	margin:0;
+ }
+ li a {
+	line-height:40px;
+    display:inline-block;
+	text-decoration:none;
+	padding:6px 16px;
+	color:white;
+	font-size:18px;
+	display:inline-block;
+    }
+li a:hover {
+     border-top:3px white solid;
+	 border-radius:50%;
+}
+li a:active {
+	color:blue;
+}
+a:visited {
+	/*color:red;*/
+    border-top:3px #277dab solid;
+	}
+	
+.box {
+	position:relative;
+	top:220px;
+
+	}
+p{  	
+    padding-top:50px;
+    margin:0 auto;
+     display:block;
+	font-style:normal;
+	letter-spacing:inherit;
+	color:#cff;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:28px;
+	width:50%;
+}
+.midbox {
+	position:relative;
+	top:350px;
+
+}
+	
+	h2 {
+		text-decoration:underline;
+		font-style:normal;
+		text-align:center;
+		color:#cff;
+		font-family:"Times New Roman", Times, serif;
+		font-size:38px;
+	}
+	
+	
+.container {
+	position:relative;
+	margin:0 auto;
+	width:50%;
+	background-color:#ddd;
+	top:400px;
+}
+.skills {
+	padding-right:20px;
+	text-align:right;
+	line-height:40px;
+}
+#lang {
+	position:relative;
+	top:400px;
+	text-align:center;
+	
+}
+#lang {
+		 -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+		cursor:normal;
+}
+.html {
+	margin-left:-15px;
+	width:85%;
+	background-color:#4CAF50;}
+.css {
+	margin-left:-15px;
+	width:80%;
+	background-color:#2196F3;}
+	.js {
+		margin-left:-15px;
+		width:80%;
+	background-color:#F93;}
+	.java {
+		margin-left:-15px;
+		width:70%;
+	background-color:#808080;}
+	.ab {
+		margin-left:-15px;
+		width:60%;
+	background-color:#f44336;}
+	.photo {
+		margin:0 auto;
+		width:15%;
+		top:400px;
+		position:relative;
+	}
+#dp img {
+margin:auto;
+display:block;
+width:300px;
+height:300px;
+border-radius:50%;
+
+}
+#button {
+	border:black 3px solid;
+	margin:0 auto;
+	display:block;
+	top:480px;
+    position: relative;
+    background-color:Transparent;
+border-radius:20%;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    opacity:;
+	
+	}
+
+#button:after {
+	border:black 1px solid;
+    content: "";
+    background:;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+#button:active:after {
+	border:black 1px solid;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+#button:hover  {
+		 -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+		cursor:normal;

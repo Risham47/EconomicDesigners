@@ -1,0 +1,243 @@
+/*
+CSS Reset
+http://meyerweb.com/eric/tools/css/reset/
+*/
+
+html, body, div, span, applet, object, iframe
+, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* particleground demo */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #252627;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+}
+
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#intro {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 0 20px;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 85px;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+}
+
+#about {
+	position:relative;
+	display:block;
+	width:300px;
+	height:300px;
+    bottom:0px;
+	left:160px;
+	}
+	h1 {
+		font-size:48px;
+	}
+	p {
+		font-size:20px;
+	}
+	h2 {
+		text-align:center;
+	}
+	#skills {
+		position:relative;
+		display:block;
+		bottom:340px;
+		left:410px;
+		font-weight:700;
+		
+	}
+	h2 {
+		font-size:48px;
+		
+		font-style:bold;
+	}
+	
+	
+	
+	
+
+.cubo {
+position: relative;
+margin: 0 auto;
+height: 200px;
+width: 200px;
+animation:giro 25s infinite linear;
+transform-style:preserve-3d;
+}
+.cubo div {
+position: absolute;
+height: 200px;
+width: 200px;
+-moz-cubo-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5); /* Firefox anti aliasing */
+animation:rotate 15s infinite linear;
+}
+
+.cubo div.cara1 {
+	
+background:rgba(0,102,153,.5);
+transform:translateZ(100px);
+}
+.cubo div.cara2 {
+background:rgba(150,153,0,.7);
+transform:rotateY(90deg) translateZ(100px);
+}
+.cubo div.cara3 {
+background:rgba(39,116,61,.7);
+transform:rotateY(180deg) translateZ(100px);
+}
+.cubo div.cara4 {
+background:rgba(105,136,165,.7);
+transform:rotateY(-90deg) translateZ(100px);
+}
+.cubo div.cara5 {
+background:rgba(223,48,48,.7);
+transform:rotateX(-90deg) translateZ(100px) rotate(180deg);
+}
+.cubo div.cara6 {
+background:rgba(144,153,102,.7);
+transform:rotateX(90deg) translateZ(100px);
+}
+@keyframes giro {
+  0% {transform: rotateX(0deg)   rotateY(0deg);}
+  100% {transform: rotateX(1080deg) rotateY(360deg);
+  }
+}
+@keyframes rot {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+ }
+	.cube {
+		position:relative;
+		display:block;
+		bottom:200px;
+	left:400px;
+	}
+	
+	
+	.bar {
+		
+		
+		position:relative;
+		display:block;
+		right:20px;
+		bottom:0px;
+		height:20px;
+	opacity:0.9;
+ }
+ .logo {
+	 
+	 margin-top:20px;
+	 margin-left:10px;
+	padding:8px;
+	display:block;
+	width:100px;
+	height:100px;
+	
+	top:0px;
+	position:relative;
+ }
+ ul {display:;
+	width:110px;
+	background-color:black;
+	list-style-type:none;
+    position:relative;
+    height:1000px;
+	 
+	padding:px;
+	margin:0;
+ }
+ li a {
+	 margin-top:50px;
+	line-height:30px;
+    display:block;
+	text-decoration:none;
+	padding:10px 16px;
+	color:white;
+	font-size:18px;
+	display:block;
+    }
+li a:hover {
+     border-top:3px white solid;
+	 border-radius:50%;
+}
+li a:active {
+	color:blue;
+}
+a:visited {
+	/*color:red;*/
+    border-top:3px #277dab solid;
+	}
+	hr {
+	color:grey;
+	}
+	h1 {
+		color:black;
+		
